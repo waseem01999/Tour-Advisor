@@ -1,0 +1,266 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='css/stylemp.css')
+  link(rel='stylesheet' href='css/icon-font.css')
+  link(rel='shortcut icon' type='image/png' href='img/favicon.png')
+  link(href='https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans&display=swap' rel='stylesheet')
+header.header
+  .header__logo-box
+    img.header__logo(src='img/logo-white.png' alt='Logo White')
+  .header__text-box
+    h1.heading-primary.u-margin-bottom-large
+      span.heading-primary--main DESTINATION
+      span.heading-primary--sub FOR THE NEW MILLENNIUM
+    a.btn.btn-white.btn-animated(href='/overview') Discover Our Tours
+main
+  section.section-about
+    .u-margin-bottom-large.u-center-text
+      h2.heading-secondary
+        | EXCITING TOURS FOR ADVENTUROUS PEOPLE
+    .row
+      .col-1-of-2
+        h2.heading-tertiary.u-margin-bottom-small
+          | YOU&apos;RE GOING TO FALL IN LOVE WITH NATURE
+        p.paragraph
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+          | ipsum sapiente aspernatur libero repellat quis consequatur ducimus
+          | quam nisi exercitationem omnis earum qui.
+        h2.heading-tertiary.u-margin-bottom-small
+          | LIVE ADVENTURES LIKE YOU NEVER HAVE BEFORE
+        p.paragraph
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          | Asperiores nulla deserunt voluptatum nam.
+        a.btn-text(href='#/') Learn more &rarr;
+      .col-1-of-2
+        .composition
+          img.composition__photo.composition__photo--p1(srcset='img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w' sizes='(max-width:900px) 20vw, (max-width:600px) 30vw, 300px' src='img/nat-1.jpg' alt='')
+          img.composition__photo.composition__photo--p2(src='img/nat-2.jpg' alt='')
+          img.composition__photo.composition__photo--p3(src='img/nat-3.jpg' alt='')
+  section.section-features
+    .row
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-world
+          h3.heading-tertiary.u-margin-bottom-small
+            | EXPLORE THE WORLD
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | Aperiam, ipsum sapiente aspernatur.
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-compass
+          h3.heading-tertiary.u-margin-bottom-small
+            | MEET NATURE
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | Aperiam, ipsum sapiente aspernatur.
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-map
+          h3.heading-tertiary.u-margin-bottom-small
+            | FIND YOUR WAY
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | Aperiam, ipsum sapiente aspernatur.
+      .col-1-of-4
+        .feature-box
+          i.feature-box__icon.icon-basic-heart
+          h3.heading-tertiary.u-margin-bottom-small
+            | LIVE A HEALTHIER LIFE
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | Aperiam, ipsum sapiente aspernatur.
+  section.section-tours
+    .u-margin-bottom-large.u-center-text
+      h2.heading-secondary SELECT ANY TOUR
+    .row
+      .col-1-of-3
+        .card
+          .card__side.card__side--front
+            .card__picture.card__picture-1
+            h4.card__heading
+              span.card__heading-span.card__heading-span-1 Beginners Package
+            .card__details
+              ul
+                li 3 day tours
+                li Up to 30 people
+                li 2 tour guides
+                li Sleep in cozy hotels
+                li Difficulty: easy
+          .card__side.card__side--back.card__side--back-1
+            .card__cta
+              .card__price-box
+                .card__price-only Starting From
+                .card__price-value $297
+              // <a href="#" class="btn btn-white">Book Now!</a>
+      .col-1-of-3
+        .card
+          .card__side.card__side--front
+            .card__picture.card__picture-2
+            h4.card__heading
+              span.card__heading-span.card__heading-span-2 Advanced Package
+            .card__details
+              ul
+                li 7 day tours
+                li Up to 40 people
+                li 6 tour guides
+                li Sleep in provided tents
+                li Difficulty: medium
+          .card__side.card__side--back.card__side--back-2
+            .card__cta
+              .card__price-box
+                .card__price-only Starting From
+                .card__price-value $597
+              // <a href="#" class="btn btn-white">Book Now!</a>
+      .col-1-of-3
+        .card
+          .card__side.card__side--front
+            .card__picture.card__picture-3
+            h4.card__heading
+              span.card__heading-span.card__heading-span-3 Expert Package
+            .card__details
+              ul
+                li 5 day tours
+                li Up to 15 people
+                li 3 tour guides
+                li Sleep in provided tents
+                li Difficulty: hard
+          .card__side.card__side--back.card__side--back-3
+            .card__cta
+              .card__price-box
+                .card__price-only Starting From
+                .card__price-value $897
+              // <a href="#" class="btn btn-white">Book Now!</a>
+    .u-center-text
+      a.btn.btn-green.btn-animated(href='/overview') Discover Our Tours
+  section.section-stories
+    .bg-video
+      video.bg-video__content(autoplay='' muted='' loop='')
+        source(src='img/video.mp4' type='video/mp4')
+        source(src='img/video.webm' type='video/webm')
+        |             &quot;Your Browser is not Supported!&quot;
+    .u-margin-bottom-large.u-center-text
+      h2.heading-secondary WE MAKE PEOPLE GENUINELY HAPPY
+    .row
+      .story
+        figure.story__shape
+          img.story__picture(src='img/nat-8.jpg' alt='story picture 1')
+          figcaption.story__caption Mary Smith
+        .story__text
+          h3.heading-tertiary.u-margin-bottom-small
+            | I HAD THE BEST WEEK EVER WITH MY FAMILY
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | Aperiam, ipsum sapiente aspernatur libero repellat quis
+            | consequatur ducimus quam nisi exercitationem omnis earum qui.
+            | Aperiam, ipsum sapiente aspernatur libero repellat quis
+            | consequatur ducimus quam nisi exercitationem omnis earum qui.
+    .row
+      .story
+        figure.story__shape
+          img.story__picture(src='img/nat-9.jpg' alt='story picture 2')
+          figcaption.story__caption Jack Wilson
+        .story__text
+          h3.heading-tertiary.u-margin-bottom-small
+            | WOW! MY LIFE IS COMPLETELY DIFFERENT NOW
+          p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | Aperiam, ipsum sapiente aspernatur libero repellat quis
+            | consequatur ducimus quam nisi exercitationem omnis earum qui.
+            | Aperiam, ipsum sapiente aspernatur libero repellat quis
+            | consequatur ducimus quam nisi exercitationem omnis earum qui.
+    .u-center-text
+      a.btn-text(href='#/') Read All Stories &rarr;
+  section.section-book
+    .row
+      .book
+        .book-form
+          .u-margin-bottom-medium
+            h2.heading-secondary START BOOKING NOW
+          form.form(action='#' autocomplete='new-password')
+            .form__group
+              input#name.form__input(type='text' placeholder='Full name' required='' autocomplete='new-password')
+              label.form__label(for='name') Full name
+            .form__group
+              input#email.form__input(type='email' placeholder='Email address' required='' autocomplete='new-password')
+              label.form__label(for='email') Email address
+            .form__group.u-margin-bottom-medium
+              .form__radio-group
+                input#small.form__radio-input(type='radio' name='tour')
+                label.form__radio-label(for='small')
+                  span.form__radio-button
+                  |                       Small tour group
+              .form__radio-group
+                input#large.form__radio-input(type='radio' name='tour')
+                label.form__radio-label(for='large')
+                  span.form__radio-button
+                  |                       Large tour group
+          div
+            a.btn.btn-green(href='#/') Next Step &rarr;
+footer.footer
+  .logo-box
+    img.header__logo(src='img/logo-white.png' alt='Logo White')
+    // <picture class="logo">
+    //
+      <source
+      srcset="
+      img/logo-green-small-1x.png 1x,
+      img/logo-green-small-2x.png 2x
+      "
+      media="(max-width:37.5em)"
+      />
+    // <img class="logo" src="img/logo-green-1x.png 1x" alt="footer logo" />
+    // </picture>
+  .row
+    .col-1-of-2
+      .footer__navigation
+        ul.footer__list
+          li.footer__item
+            a.footer__link(href='#') company
+          li.footer__item
+            a.footer__link(href='#') contact us
+          li.footer__item
+            a.footer__link(href='#') careers
+          li.footer__item
+            a.footer__link(href='#') privacy policy
+          li.footer__item
+            a.footer__link(href='#') terms
+    .col-1-of-2
+      p.footer__text
+        | Built by
+        a.footer__link(href='#') Waseem, Usama &amp; Umair
+        |  as a
+        |             Capstone Final Year Project.
+//
+  <div class="grid-test">
+  <div class="row">
+  <div class="col-1-of-2">col-1-of-2</div>
+  <div class="col-1-of-2">col-1-of-2</div>
+  </div>
+  <div class="row">
+  <div class="col-1-of-3">col-1-of-3</div>
+  <div class="col-1-of-3">col-1-of-3</div>
+  <div class="col-1-of-3">col-1-of-3</div>
+  </div>
+  <div class="row">
+  <div class="col-1-of-3">col-1-of-3</div>
+  <div class="col-2-of-3">col-2-of-3</div>
+  </div>
+  <div class="row">
+  <div class="col-1-of-4">col-1-of-4</div>
+  <div class="col-1-of-4">col-1-of-4</div>
+  <div class="col-1-of-4">col-1-of-4</div>
+  <div class="col-1-of-4">col-1-of-4</div>
+  </div>
+  <div class="row">
+  <div class="col-1-of-4">col-1-of-4</div>
+  <div class="col-1-of-4">col-1-of-4</div>
+  <div class="col-2-of-4">col-2-of-4</div>
+  </div>
+  <div class="row">
+  <div class="col-1-of-4">col-1-of-4</div>
+  <div class="col-3-of-4">col-3-of-4</div>
+  </div>
+  </div>
